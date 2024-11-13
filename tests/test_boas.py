@@ -28,6 +28,6 @@ class TestBoas(unittest.TestCase):
 
     def test_validate_adden_mice(self):
         print("validar comida de las boas")
-        for i in range(10):
+        for i in range(20):
             print(i)
             self.boa.add_mouse()
